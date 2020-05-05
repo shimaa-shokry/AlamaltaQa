@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  date:Date;
+  today: number;
+  constructor() { 
+    setInterval(() => {
+      this.date = new Date();
+      this.today = this.date.getTime();
+    }, 1000)
+  }
 
   ngOnInit(): void {
   }

@@ -1,0 +1,105 @@
+.listStyle {
+    list-style-type: none;
+    display: inline;
+}
+
+.alam-altaQa {
+    display: inline;
+    margin: 35px;
+    margin-right: 50px;
+}
+
+.owners {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+  }
+  
+  li {
+    float: right;
+    margin: 20px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  h5 {
+      color: #17357e;
+  }
+
+  .li-left {
+    border-left: none;
+  }
+
+  .li-right {
+    border-right: none;
+  }
+
+  .date-container {
+      height: fit-content;
+      width: 1500px;
+      background-color: #daf1f1;
+      text-align: right;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .date {
+      margin-right: 15px;
+      margin-top: 0px;
+      color: #17357e;
+      font-weight: 700;
+  }
+
+  .clock {
+      width: 20px;
+      height: 20px;
+      margin-right: 20px;
+  }
+
+  .company-logo {
+      margin-top: 10px;
+      margin-right: 200px;
+  }
+
+
+  .header {
+    display: flow-root;
+    background-color: #17357e;
+  }
+.nav-bar {
+    display: block;
+}
+
+.nav-bar li {
+    float: right;
+    border: none;
+    margin: 0px;
+}
+
+  li a {
+    color: white;
+    text-align: center;
+    padding: 10px 1px;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  li a:hover {
+    background-color: #0080ff;
+  }
+
+  .home-logo {
+      width: 22px;
+      height: 20px;
+      margin-left: 10px;
+      margin-bottom: 5px;
+  }
+
+  
