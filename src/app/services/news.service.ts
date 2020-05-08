@@ -12,4 +12,7 @@ export class NewsService {
   getMoreViewedNews(){
     return this._httpClient.get(`${environment.apiURL}/GetMoreViews`);
   }
+  getDetailsNews(){
+    return this._httpClient.get(`${environment.apiURL}/GetDetails`); 
+  }
 }
