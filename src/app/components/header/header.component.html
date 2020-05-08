@@ -26,15 +26,15 @@
 <nav class="navbar navbar-light header">
     <div class="nav-bar" >
     <ul>
-        <li><a class="active" href="#home">الصفحة الرئيسية</a> <img src="assets\images\home.png" class="home-logo"> </li>
-        <li><a href="#news">مقالات</a></li>
-        <li><a href="#contact">أخبار البترول</a></li>
-        <li><a href="#about">كهرباء</a></li>
-        <li><a href="#about">حوارات</a></li>
-        <li><a href="#about">طاقة متجددة</a></li>
-        <li><a href="#about">TV طاقة</a></li>
-        <li><a href="#about">تعدين و بتروكيماويات</a></li> 
-        <li><a href="#about">طاقة سبورت</a></li> 
+        <li><a class="active" routerLink="/home">الصفحة الرئيسية</a> <img src="assets\images\home.png" class="home-logo"> </li>
+        <li><a [routerLink]="['/department', 1]">مقالات</a></li>
+        <li><a [routerLink]="['/department', 6]">أخبار البترول</a></li>
+        <li><a [routerLink]="['/department', 7]">كهرباء</a></li>
+        <li><a [routerLink]="['/department', 9]">حوارات</a></li>
+        <li><a [routerLink]="['/department', 12]">طاقة متجددة</a></li>
+        <li><a [routerLink]="['/department', 64]">TV طاقة</a></li>
+        <li><a [routerLink]="['/department', 69]">تعدين و بتروكيماويات</a></li> 
+        <li><a [routerLink]="['/department', 1742]">طاقة سبورت</a></li> 
         <li><a href="#about">المزيد ؟</a></li> 
     </ul>
 </div>

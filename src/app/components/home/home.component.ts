@@ -8,7 +8,7 @@ import { News } from 'src/app/models/News';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  allNews: News[] = [];
+  allTrendNews: News[] = [];
   constructor(private _newsService: NewsService) { }
 
   ngOnInit(): void {
@@ -16,11 +16,11 @@ export class HomeComponent implements OnInit {
   }
 
   GetDetailsOfNews(): void {
-    this._newsService.getDetailsNews().subscribe(response => {
+    this._newsService.getTrendNews().subscribe(response => {
       let responseViewModel: ResponseViewModel = new ResponseViewModel();
       responseViewModel = response as ResponseViewModel;
       if (responseViewModel.Success) {
-        this.allNews = responseViewModel.Data;
+        this.allTrendNews = responseViewModel.Data;
       }
     }, error => {
       alert("error happens");

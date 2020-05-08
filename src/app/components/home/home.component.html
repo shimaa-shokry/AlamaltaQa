@@ -1,10 +1,8 @@
-<div class="hom">
-<div class="container" *ngFor="let news of allNews; let i = index">
-    <img src={{news.magePath}}  width="500" height="600">
-    <div class="bottom-left">Bottom Left</div>
-    {{news.Title}}
-    
-</div>
-
-    
+<div class="container">
+    <div *ngFor="let trendNews of allTrendNews; let i = index">
+        <span class="column">
+            <img src="{{trendNews.ImagePath}}" width="370px" height="300px" class="rounded float-right" >
+            <p style="float: right;">{{trendNews.Title}}</p> 
+        </span>
+    </div>
 </div>

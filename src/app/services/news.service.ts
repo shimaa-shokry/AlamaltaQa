@@ -15,4 +15,8 @@ export class NewsService {
   getDetailsNews(){
     return this._httpClient.get(`${environment.apiURL}/GetDetails`); 
   }
+
+  getTrendNews(){
+    return this._httpClient.get(`${environment.apiURL}/GetTrendNews`); 
+  }
 }

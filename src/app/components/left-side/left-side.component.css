@@ -3,7 +3,7 @@
     float: left;
     text-align: right;
     width: 500px;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 120px;
     padding: 10px;
     border: 0.5px solid lightgray;
@@ -45,4 +45,9 @@
     text-align: center;
     border-radius: 50%;
     float: right;
+}
+
+.image-container {
+    border-top: 0.5px solid lightgray;
+    padding-top: 15px;
 }
